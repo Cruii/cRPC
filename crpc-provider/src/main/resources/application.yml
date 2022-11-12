@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+rpc:
+  provider:
+    port: 10010
+    register-type: ZOOKEEPER
+    register-addr: cd58:2181

@@ -1,4 +1,4 @@
-package io.cruii.crpc.registry.zookeeper;
+package io.cruii.crpc.registry;
 
 import io.cruii.crpc.common.RpcServiceHelper;
 import io.cruii.crpc.common.ServiceMeta;

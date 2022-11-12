@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 public class RpcRequestHolder {
 
-    public final static AtomicLong REQUEST_ID_GEN = new AtomicLong(0);
+    public final static AtomicLong REQUEST_ID_GENERATOR = new AtomicLong(0);
 
     public static final Map<Long, RpcFuture<RpcResponse>> REQUEST_MAP = new ConcurrentHashMap<>();
 }

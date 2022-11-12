@@ -17,4 +17,25 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>io.cruii</groupId>
+            <artifactId>crpc-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cruii</groupId>
+            <artifactId>crpc-protocol</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cruii</groupId>
+            <artifactId>crpc-registry</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cruii</groupId>
+            <artifactId>crpc-facade</artifactId>
+        </dependency>
+    </dependencies>
 </project>

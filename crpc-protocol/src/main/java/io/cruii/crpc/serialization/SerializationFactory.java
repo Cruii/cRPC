@@ -1,9 +1,12 @@
-package com.mini.rpc.serialization;
+package io.cruii.crpc.serialization;
 
 public class SerializationFactory {
 
+    private SerializationFactory() {
+    }
+
     public static RpcSerialization getRpcSerialization(byte serializationType) {
-        SerializationTypeEnum typeEnum = SerializationTypeEnum.findByType(serializationType);
+        SerializationTypeEnum typeEnum = SerializationTypeEnum.ofType(serializationType);
 
         switch (typeEnum) {
             case HESSIAN:
@@ -11,7 +14,7 @@ public class SerializationFactory {
             case JSON:
                 return new JsonSerialization();
             default:
-                throw new IllegalArgumentException("serialization type is illegal, " + serializationType);
+                throw new IllegalArgumentException("Illegal serialization type , " + serializationType);
         }
     }
 }

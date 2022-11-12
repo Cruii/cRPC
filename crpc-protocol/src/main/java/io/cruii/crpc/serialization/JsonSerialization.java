@@ -17,7 +17,7 @@
  * limitations under the License.
  */
 
-package com.mini.rpc.serialization;
+package io.cruii.crpc.serialization;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.DeserializationFeature;

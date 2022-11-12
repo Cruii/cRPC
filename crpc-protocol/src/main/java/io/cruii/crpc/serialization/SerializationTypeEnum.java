@@ -1,4 +1,4 @@
-package com.mini.rpc.serialization;
+package io.cruii.crpc.serialization;
 
 import lombok.Getter;
 
@@ -13,7 +13,7 @@ public enum SerializationTypeEnum {
         this.type = type;
     }
 
-    public static SerializationTypeEnum findByType(byte serializationType) {
+    public static SerializationTypeEnum ofType(byte serializationType) {
         for (SerializationTypeEnum typeEnum : SerializationTypeEnum.values()) {
             if (typeEnum.getType() == serializationType) {
                 return typeEnum;

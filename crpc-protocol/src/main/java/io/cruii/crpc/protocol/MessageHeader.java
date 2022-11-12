@@ -9,7 +9,7 @@ import java.io.Serializable;
  * Created on 2022/11/11
  */
 @Data
-public class MsgHeader implements Serializable {
+public class MessageHeader implements Serializable {
     private static final long serialVersionUID = 8438761115187646176L;
 
     private short magicNum;
@@ -18,7 +18,7 @@ public class MsgHeader implements Serializable {
 
     private byte serialization;
 
-    private byte msgType;
+    private byte messageType;
 
     private byte status;
 

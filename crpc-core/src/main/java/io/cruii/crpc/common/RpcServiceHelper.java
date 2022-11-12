@@ -1,4 +1,4 @@
-package com.mini.rpc.common;
+package io.cruii.crpc.common;
 
 public class RpcServiceHelper {
     public static String buildServiceKey(String serviceName, String serviceVersion) {

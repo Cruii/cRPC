@@ -1,6 +1,9 @@
-package io.cruii.crpc.facade;/**
- *
+package io.cruii.crpc.facade;
+
+/**
  * @author cruii
  * Created on 2022/11/9
- */public interface FacadeService {
+ */
+public interface FacadeService {
+    String hello(String name);
 }

@@ -1,15 +1,15 @@
-package com.mini.rpc.protocol;
+package io.cruii.crpc.protocol;
 
 import lombok.Getter;
 
-public enum MsgStatus {
+public enum MessageStatus {
     SUCCESS(0),
     FAIL(1);
 
     @Getter
     private final int code;
 
-    MsgStatus(int code) {
+    MessageStatus(int code) {
         this.code = code;
     }
 

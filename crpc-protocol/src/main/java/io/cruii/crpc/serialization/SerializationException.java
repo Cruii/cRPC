@@ -1,4 +1,4 @@
-package com.mini.rpc.serialization;
+package io.cruii.crpc.serialization;
 
 public class SerializationException extends RuntimeException {
 
